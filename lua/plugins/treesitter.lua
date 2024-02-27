@@ -14,6 +14,8 @@ return {
         "yaml",
         "go",
         "terraform",
+        "markdown",
+        "markdown_inline",
       },
     },
   },
