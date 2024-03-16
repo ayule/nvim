@@ -3,8 +3,9 @@ return {
   { "nyoom-engineering/oxocarbon.nvim" },
   { "rose-pine/neovim", name = "rose-pine" },
   { "rebelot/kanagawa.nvim" },
+  { "catppuccin/nvim" },
+  { "folke/tokyonight.nvim", lazy = false },
 
-  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
