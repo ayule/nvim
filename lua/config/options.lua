@@ -2,3 +2,4 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 vim.opt.clipboard = ""
+vim.g.python3_host_prog = "/home/arthur/.pyenv/versions/3.13.5/envs/neovim/bin/python"
