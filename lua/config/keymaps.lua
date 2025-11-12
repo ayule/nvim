@@ -16,9 +16,9 @@ vim.keymap.set("n", "<leader>Y", [["+Y]], { desc = "Yank line to + register" })
 
 vim.keymap.set("n", "Q", "<nop>")
 
-vim.keymap.set(
-  "n",
-  "<leader>rs",
-  [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]],
-  { desc = "sed-based search and replace" }
-)
+-- vim.keymap.set(
+--   "n",
+--   "<leader>rs",
+--   [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]],
+--   { desc = "sed-based search and replace" }
+-- )
